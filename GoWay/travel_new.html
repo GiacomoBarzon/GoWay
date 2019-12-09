@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<style>
+    table {
+        width: 100%;
+    }
+    th, td {
+        text-align: center;
+    }
+    th{
+        white-space: nowrap;
+    }
+    caption {
+        font-weight: bold;
+    }
+</style>
+    
+<table>
+    <caption> ORDINE DI VIAGGIO #ORDER# </caption>
+    
+    <thead>
+    <tr bgcolor="#C0C0C0">
+        <th> Data di partenza
+        <th> Orario di partenza
+        <th> Data finale
+        <th> Orario finale
+        <th> Durata stimata
+        <th> Distanza stimata
+        <th> Veicolo
+        <th> Conducente
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>#START_DATE#
+        <td>#START_TIME#
+        <td>#END_DATE#
+        <td>#END_TIME#
+        <td>#TOTAL_TIME#
+        <td>#TOTAL_DISTANCE# km
+        <td>#VEHICLE#
+        <td>#DRIVER#
+    </tr>
+    </tbody>
+</table>
+    
+<table border="1">
+    <thead>
+        <tr bgcolor="#C0C0C0">
+            <th>Passeggero</th>
+            <th>Conteggio</th>
+            <th>Contatto</th>
+            <!-- <th>Luogo partenza</th> -->
+            <th>Indirizzo partenza</th>
+            <th>Orario partenza</th>
+            <!-- <th>Luogo rilascio</th> -->
+            <th>Indirizzo rilascio</th>
+            <th>Ordine</th>
+            <th>Bagagli</th>
+            <th>Commenti</th>
+        </tr>
+    </thead>
+    
+	<tbody>
+        #ITEMS#
+	</tbody> 
+
+	<tfoot>
+        
+	</tfoot>
+</table>
+</html>

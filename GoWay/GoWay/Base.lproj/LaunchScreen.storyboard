@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CAB TAXI 4 YOU" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqF-OR-FiT">
+                                <rect key="frame" x="65.5" y="245" width="283" height="46"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logoCab" translatesAutoresizingMaskIntoConstraints="NO" id="q99-yS-txv">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by JackBjo©" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NrP-5K-Pxb">
+                                <rect key="frame" x="123" y="841" width="168" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.96906179566893325" blue="0.72938092902701879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NrP-5K-Pxb" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="3hy-b9-3xX"/>
+                            <constraint firstItem="NrP-5K-Pxb" firstAttribute="centerX" secondItem="q99-yS-txv" secondAttribute="centerX" id="Cr0-hr-GQ6"/>
+                            <constraint firstItem="vqF-OR-FiT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="201" id="NQB-7y-yES"/>
+                            <constraint firstItem="q99-yS-txv" firstAttribute="width" secondItem="vqF-OR-FiT" secondAttribute="height" multiplier="20:3" constant="-63.333333333333371" id="UqY-2n-lfO"/>
+                            <constraint firstItem="q99-yS-txv" firstAttribute="top" secondItem="vqF-OR-FiT" secondAttribute="bottom" constant="93.5" id="Vvm-6a-4fZ"/>
+                            <constraint firstItem="q99-yS-txv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="fPE-IC-a1a"/>
+                            <constraint firstItem="vqF-OR-FiT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="g9a-OD-YG3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logoCab" width="79" height="95"/>
+    </resources>
+</document>
